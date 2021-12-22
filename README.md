@@ -2,31 +2,31 @@
 "Java dla testera" course (https://javadlatestera.pl/) by Bartosz Kita
 
 
-###General info
+### General info
 Here I am taking my first steps towards test automation.
 **********************************
 
-###Technologies
+### Technologies
 
 Java 11
 **********************************
 
-###Features
-
+### Features
+*
 1. Data Types  
--[x] First program
--[x] Data types
--[x] Variables
--[x] Other variables
--[x] Operators
--[x] Conditional and Control Flow
--[x] Modulo operator, naming convention, code formatting
--[x] Exercise
-
+* -[x] First program
+* -[x] Data types
+* -[x] Variables
+* -[x] Other variables
+* -[x] Operators
+* -[x] Conditional and Control Flow
+* -[x] Modulo operator, naming convention, code formatting
+* -[x] Exercise
+*
 2. Object-oriented programming
--[ ] Classes
--[ ] Object field values
--[ ] Void method
+*-[ ] Classes
+*-[ ] Object field values
+* -[ ] Void method
 
 ...
 
