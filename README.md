@@ -12,7 +12,7 @@ Java 11
 **********************************
 
 ### Features
-*
+
 1. Data Types  
 * -[x] First program
 * -[x] Data types
@@ -22,10 +22,11 @@ Java 11
 * -[x] Conditional and Control Flow
 * -[x] Modulo operator, naming convention, code formatting
 * -[x] Exercise
-*
+
 2. Object-oriented programming
-*-[ ] Classes
-*-[ ] Object field values
+
+* -[ ] Classes
+* -[ ] Object field values
 * -[ ] Void method
 
 ...
