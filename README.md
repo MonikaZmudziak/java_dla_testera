@@ -1,7 +1,7 @@
 # Java for testers
 "Java dla testera" course (https://javadlatestera.pl/) by Bartosz Kita
 
-
+*********************************
 ### General info
 Here I am taking my first steps towards test automation.
 **********************************
@@ -28,7 +28,15 @@ Java 11
 * -[ ] Classes
 * -[ ] Object field values
 * -[ ] Void method
-
+* -[ ] Methods
+* -[ ] Methods with parameters
+* -[ ] Overloading methods
+* -[ ] Constructors
+* -[ ] Constructors with parameters
+* -[ ] Clean code
+* -[ ] Summary
+* -[ ] Exercise
+    
 ...
 
 
