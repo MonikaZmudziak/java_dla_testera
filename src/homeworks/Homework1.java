@@ -33,7 +33,7 @@ public class Homework1 {
         if (e % 2 == 0 && f % 2 == 0) {
             System.out.println("both sums are even");
         } else {
-            System.out.println("both sums is odd");
+            System.out.println("both sums are odd");
         }
 
     }
