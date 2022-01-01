@@ -25,18 +25,30 @@ Java 11
 
 2. Object-oriented programming
 
-* -[ ] Classes
-* -[ ] Object field values
-* -[ ] Void method
-* -[ ] Methods
-* -[ ] Methods with parameters
-* -[ ] Overloading methods
-* -[ ] Constructors
-* -[ ] Constructors with parameters
-* -[ ] Clean code
-* -[ ] Summary
-* -[ ] Exercise
+* -[x] Classes
+* -[x] Object field values
+* -[x] Void method
+* -[x] Methods
+* -[x] Methods with parameters
+* -[x] Overloading methods
+* -[x] Constructors
+* -[x] Constructors with parameters
+* -[x] Clean code
+* -[x] Summary
+* -[x] Exercise
     
+3. Access modifiers
+
+* -[ ] String
+* -[ ] String and methods
+* -[ ] Access modifiers - default
+* -[ ] Access modifiers - public
+* -[ ] Access modifiers - private
+* -[ ] Access modifiers - summary
+* -[ ] Getters and Setters
+* -[ ] Encapsulation
+* -[ ] Exercise
+
 ...
 
 
