@@ -1,4 +1,4 @@
-package homeworks;
+package homeworks.homework2;
 
 public class BugMainApp {
     public static void main(String[] args) {
