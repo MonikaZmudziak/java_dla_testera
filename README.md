@@ -39,15 +39,15 @@ Java 11
     
 3. Access modifiers
 
-* -[ ] String
-* -[ ] String and methods
-* -[ ] Access modifiers - default
-* -[ ] Access modifiers - public
-* -[ ] Access modifiers - private
-* -[ ] Access modifiers - summary
-* -[ ] Getters and Setters
-* -[ ] Encapsulation
-* -[ ] Exercise
+* -[x] String
+* -[x] String and methods
+* -[x] Access modifiers - default
+* -[x] Access modifiers - public
+* -[x] Access modifiers - private
+* -[x] Access modifiers - summary
+* -[x] Getters and Setters
+* -[x] Encapsulation
+* -[x] Exercise
 
 ...
 

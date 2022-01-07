@@ -9,7 +9,14 @@ public class UserMainApp {
 
         User monika = new User("Monika", "Test","monika@test.com",17);
         User bartek1 = new User("Bartek1", "Test", "bartek1@test.pl", 25);
-        System.out.println(bartek1.firstname);
+        //System.out.println(bartek1.firstname);
+
+        System.out.println(monika.getEmail());
+        monika.setEmail("new@email.ru");
+        System.out.println(monika.getEmail());
+
+
+
 
 //        monika.firstname = "Monika";
 //        monika.lastname = "Test";

@@ -5,11 +5,11 @@ public class User {
     //object fields = description of what data the object will consist of
     // methods = what the object will be able to do
 
-    String firstname; //default value = null
-    String lastname;
-    String email;
-    int age; // default value =0
-    boolean isAdult; // default value = false
+    private String firstname; //default value = null
+    private String lastname;
+    private String email;
+    private int age; // default value =0
+    private boolean isAdult; // default value = false
 
     // Constructor - is using to creating new objects
 
@@ -25,7 +25,7 @@ public class User {
         this.email = email;
         this.age = age;
         //this.isAdult = isAdult;
-        this.isAdult=isUserAdult();
+        this.isAdult = isUserAdult();
 
 //        boolean isUserAdult() {
 //            if (age >= 18) {
@@ -35,9 +35,55 @@ public class User {
 //            }
 //        }
 
-        System.out.println(firstname + " " + lastname + " " + email + " " + age + " "+ isAdult);
+        System.out.println(firstname + " " + lastname + " " + email + " " + age + " " + isAdult);
     }
 
+    // Getters and Setters
+    public void setEmail(String email) { // set a private filed
+        if (email.endsWith(".ru")) {
+            System.out.println("RU emails ar not allowed!");
+        } else {
+            this.email = email;
+        }
+
+
+    }
+
+    public String getEmail() { //read a private field, we can add validation
+        return email;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public boolean isAdult() {
+        return isAdult;
+    }
+
+    public void setAdult(boolean adult) {
+        isAdult = adult;
+    }
 
     // return type + method name
     void getFullName() {
