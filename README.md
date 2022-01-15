@@ -49,6 +49,16 @@ Java 11
 * -[x] Encapsulation
 * -[x] Exercise
 
+4. Arrays
+
+* -[x] Arrays introduction
+* -[x] Arrays
+* -[x] For and foreach loops
+* -[x] Summary
+* -[ ] Task one
+* -[ ] Task two
+* -[ ] Task three
+* -[ ] Exercise
 ...
 
 
