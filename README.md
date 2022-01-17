@@ -55,10 +55,10 @@ Java 11
 * -[x] Arrays
 * -[x] For and foreach loops
 * -[x] Summary
-* -[ ] Task one
-* -[ ] Task two
-* -[ ] Task three
-* -[ ] Exercise
+* -[x] Task one
+* -[x] Task two
+* -[x] Task three
+* -[x] Exercise
     
 ...
 
