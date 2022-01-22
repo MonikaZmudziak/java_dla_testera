@@ -5,6 +5,11 @@ public class User {
     //object fields = description of what data the object will consist of
     // methods = what the object will be able to do
 
+
+
+    public static int userCounter =0;  // pole statyczne należace do klasy a nie do obiektu
+    private static int userCounterTwo=0;
+
     private String firstname; //default value = null
     private String lastname;
     private String email;
@@ -35,7 +40,11 @@ public class User {
 //            }
 //        }
 
+
         System.out.println(firstname + " " + lastname + " " + email + " " + age + " " + isAdult);
+
+        userCounter++;
+        userCounterTwo++;
     }
 
     // Getters and Setters
@@ -128,6 +137,15 @@ public class User {
 
     void greetings(String firstName, String lastname) {   //method overloading is that we create methods with exactly the same names, but they must have different parameters: the number of parameters or the types of assumed parameters
         System.out.println("Hi " + firstname + " " + lastname + ". Niece to see you!");
+
+
+    }
+
+
+        public static int getUserCounter(){  //static method
+            return userCounterTwo;
+
+
 
     }
 

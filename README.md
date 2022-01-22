@@ -60,6 +60,14 @@ Java 11
 * -[x] Task three
 * -[x] Exercise
     
+4. Static fields and methods
+
+* -[x] While and Do while loops
+* -[x] Static fields
+* -[x] Static methods
+* -[x] Practical application of static methods
+* -[x] Practical application of static fields
+ 
 ...
 
 

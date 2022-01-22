@@ -15,8 +15,8 @@ public class UserMainApp {
         monika.setEmail("new@email.ru");
         System.out.println(monika.getEmail());
 
-
-
+        System.out.println(User.userCounter); // dostęp do pola statycznego, dostajemy sie za pomocą nazwy klasy a nie nazwy referencji do obiektu
+        System.out.println(User.getUserCounter());// static method
 
 //        monika.firstname = "Monika";
 //        monika.lastname = "Test";
