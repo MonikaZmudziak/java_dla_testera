@@ -77,6 +77,15 @@ Java 11
 * -[x] Overwriting method
 * -[x] super
 * -[x] New field in Laptop class
+
+7. Abstraction
+
+* -[ ] Multi-inheritance
+* -[ ] Object reference
+* -[ ] Polymorphism
+* -[ ] Type casting
+* -[ ] Abstract class
+* -[ ] Abstract class - Summary
     
 ...
 
