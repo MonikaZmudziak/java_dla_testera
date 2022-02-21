@@ -70,12 +70,13 @@ Java 11
     
 6. Inheritance
  
-* -[ ] Inheritance
-* -[ ] Mother class
-* -[ ] Objects creating
-* -[ ] Access modifiers - protected
-* -[ ] Overwriting method
-* -[ ] super
+* -[x] Inheritance
+* -[x] Mother class
+* -[x] Objects creating
+* -[x] Access modifiers - protected
+* -[x] Overwriting method
+* -[x] super
+* -[x] New field in Laptop class
     
 ...
 
