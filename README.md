@@ -67,7 +67,16 @@ Java 11
 * -[x] Static methods
 * -[x] Practical application of static methods
 * -[x] Practical application of static fields
+    
+6. Inheritance
  
+* -[ ] Inheritance
+* -[ ] Mother class
+* -[ ] Objects creating
+* -[ ] Access modifiers - protected
+* -[ ] Overwriting method
+* -[ ] super
+    
 ...
 
 
