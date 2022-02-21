@@ -14,6 +14,10 @@ public class MainAppComputer {
         officeComputer.switchOn();
         System.out.println(officeComputer.getState());
 
+        officeComputer.setConnected(true);
+        officeComputer.switchOn();
+        System.out.println(officeComputer.getState());
+
 
         gamingLaptop.switchOn();
         System.out.println(gamingLaptop.getState());
