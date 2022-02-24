@@ -32,6 +32,30 @@ public class PC extends Computer {
 
     }
 
+    //Homework
+
+
+    @Override
+    public int volumeUp(int newVolumeLevel) {
+       volumeLevel = volumeLevel + newVolumeLevel;
+       if(volumeLevel>=100){
+           volumeLevel = 100;
+       }
+           return volumeLevel;
+
+    }
+
+    @Override
+    public int volumeDown(int newVolumeLevel) {
+        volumeLevel = volumeLevel - newVolumeLevel;
+        if (volumeLevel <= 0) {
+            volumeLevel = 0;
+        }
+        return volumeLevel;
+
+    }
+    //
+
 
 
     @Override

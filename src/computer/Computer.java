@@ -66,10 +66,15 @@ abstract public class Computer {
         return state;
     }
 
-// Abstract methods - without body
+   // Abstract methods - without body
     public abstract int volumeUp();
 
     public abstract int volumeDown();
+
+    //Homework
+
+    public abstract int volumeUp(int newVolumeLevel);
+    public abstract int volumeDown(int newVolumeLevel);
 
 }
 
