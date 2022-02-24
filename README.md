@@ -80,12 +80,12 @@ Java 11
 
 7. Abstraction
 
-* -[ ] Multi-inheritance
-* -[ ] Object reference
-* -[ ] Polymorphism
-* -[ ] Type casting
-* -[ ] Abstract class
-* -[ ] Abstract class - Summary
+* -[x] Multi-inheritance
+* -[x] Object reference
+* -[x] Polymorphism
+* -[x] Type casting
+* -[x] Abstract class
+* -[x] Abstract class - Summary
     
 ...
 
