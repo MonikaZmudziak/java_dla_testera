@@ -89,13 +89,13 @@ Java 11
     
 8. Interface
 
-* -[ ] Interface - introduction
-* -[ ] We create another interface
-* -[ ] Interface - multi-inheritance
-* -[ ] Difference between abstract class and interface
-* -[ ] Packaging types
-* -[ ] The toString, equals and hashCode methods
-* -[ ] Composition
+* -[x] Interface - introduction
+* -[x] We create another interface
+* -[x] Interface - multi-inheritance
+* -[x] Difference between abstract class and interface
+* -[x] Packaging types
+* -[x] The toString, equals and hashCode methods
+* -[x] Composition
     
 ...
 

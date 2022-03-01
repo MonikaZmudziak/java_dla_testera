@@ -1,5 +1,7 @@
 import com.sun.source.tree.ClassTree;
 
+import java.util.Objects;
+
 public class User {
 
     //object fields = description of what data the object will consist of
@@ -149,5 +151,30 @@ public class User {
 
     }
 
+    // toString, equals and hashCode methods
 
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", isAdult=" + isAdult +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return age == user.age && isAdult == user.isAdult && Objects.equals(firstname, user.firstname) && Objects.equals(lastname, user.lastname) && Objects.equals(email, user.email);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstname, lastname, email, age, isAdult);
+    }
 }

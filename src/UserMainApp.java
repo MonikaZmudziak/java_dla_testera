@@ -9,6 +9,7 @@ public class UserMainApp {
 
         User monika = new User("Monika", "Test","monika@test.com",17);
         User bartek1 = new User("Bartek1", "Test", "bartek1@test.pl", 25);
+        User bartek2 = new User("Bartek1", "Test", "bartek1@test.pl", 25);
         //System.out.println(bartek1.firstname);
 
         System.out.println(monika.getEmail());
@@ -67,7 +68,19 @@ public class UserMainApp {
 //
 //        int tomekAgePlus10 = tomek.youAgePlusTen(tomek.age);
 //        System.out.println(tomekAgePlus10); // System.out.println(tomek.youAgePlusTen(tomek.age));
+
+
+        // toString, equals and hashCode methods
+
+        System.out.println(bartek1);
+        System.out.println(bartek1.equals(bartek2));
+
+
     }
+
+
+
+
 
 
 }

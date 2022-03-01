@@ -1,10 +1,10 @@
 package computer;
 
-public class Laptop extends Computer {
+public class Laptop extends Computer implements Music, Video {
 
     private int batteryLevel;
 
-    public Laptop(String name, String type, int hdd, int ram, int batteryLevel) {
+    public Laptop(String name, String type, Hdd hdd, Ram ram, int batteryLevel) {
         super(name, type, hdd, ram); // wywołanie konstruktora z klasy matki (wraz z parametrami z klasy matki)// to musi byc w pierwszej linijce w konstruktorze
         this.batteryLevel = batteryLevel;
     }
@@ -64,5 +64,44 @@ public class Laptop extends Computer {
 
     public void setBatteryLevel(int newBatteryLevel) {
         batteryLevel = newBatteryLevel;
+    }
+
+
+    // interface methods
+
+    @Override
+    public void playMusic() {
+        System.out.println("PLAY MUSIC");
+
+    }
+
+    @Override
+    public void pauseMusic() {
+        System.out.println("PAUSE MUSIC");
+    }
+
+    @Override
+    public void stopMusic() {
+        System.out.println("STOP MUSIC");
+    }
+  //!!! Multi-inheritance with interface
+    @Override
+    public void sayHello() {
+        Music.super.sayHello();
+    }
+
+    @Override
+    public void playVideo() {
+        System.out.println("PLAY VIDEO");
+    }
+
+    @Override
+    public void pauseVideo() {
+        System.out.println("PAUSE VIDEO");
+    }
+
+    @Override
+    public void stopVideo() {
+        System.out.println("STOP VIDEO");
     }
 }
