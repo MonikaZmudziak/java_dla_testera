@@ -106,6 +106,26 @@ Java 11
 * -[x] Set with objects
 * -[x] Map
 
+9. Streams
+
+* -[ ] Stream-introduction
+* -[ ] Lambda expressions
+* -[ ] Testing methods
+* -[ ] Sorting items in the stream
+* -[ ] Optional - introduction
+* -[ ] The orElse method
+* -[ ] The orElseGet and or ElseThrow methods
+* -[ ] The ifPresent and ifPresentOrElse methods
+
+10. Exceptions
+
+* -[ ] Enumeration types
+* -[ ] Exceptions to catch - examples
+* -[ ] try-catch-finally
+* -[ ] Exceptions you do not need to catch - Examples 1
+* -[ ] Exceptions you do not need to catch - Examples 2
+* -[ ] Creating own exceptions
+
 ...
 
 
