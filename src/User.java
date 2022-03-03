@@ -2,7 +2,7 @@ import com.sun.source.tree.ClassTree;
 
 import java.util.Objects;
 
-public class User {
+public class User implements Comparable<User> { //important to sort in CollectionsSetWithObjectsMainApp
 
     //object fields = description of what data the object will consist of
     // methods = what the object will be able to do
@@ -176,5 +176,16 @@ public class User {
     @Override
     public int hashCode() {
         return Objects.hash(firstname, lastname, email, age, isAdult);
+    }
+ // needed to implements Comparable<User>
+    @Override
+    public int compareTo(User user) {
+        int compareResult = this.getFirstname().compareTo(user.getFirstname());
+
+        if(compareResult ==0){
+            compareResult=this.getLastname().compareTo(user.getLastname());
+        }
+
+        return compareResult;
     }
 }

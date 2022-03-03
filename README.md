@@ -96,7 +96,16 @@ Java 11
 * -[x] Packaging types
 * -[x] The toString, equals and hashCode methods
 * -[x] Composition
-    
+
+9. Collections
+
+* -[x] Lists - introduction
+* -[x] Lists with objects
+* -[x] ArrayList vs. LinkedList
+* -[x] Set - introduction
+* -[x] Set with objects
+* -[x] Map
+
 ...
 
 
