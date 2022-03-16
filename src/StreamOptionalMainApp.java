@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Stream;
 
 public class StreamOptionalMainApp {
     public static void main(String[] args) {
@@ -65,6 +66,43 @@ public class StreamOptionalMainApp {
 
         System.out.println(age);
 
+        //Interfejs funkcyjny:
+        // 1. Predicate - pobiera jedną wartość i zwraca boolean (np w filtrze)
+        // 2. Consumer - pobiera jedną wartość i nic nie zwraca (np SOUT)
+        // 3. Supplier - dostarcza wartość (orElseGet)
+
+        //orElseGet
+
+        User bartek = users.stream()
+                .filter(user -> user.getFirstname().startsWith("B")) // filtrowanie userów zaczynających sie na literę B
+                .findFirst() // jęzeli użytkownik na literę B będzie to zwracamy tego użytkownika
+                .orElseGet(() -> new User("Bartek", "Testowy",
+                                "b@test.pl", 18));// jeżeli nie będzie użytkownika na literę B to ta metoda utworzy/wygeneruje nam takeigo użytkownika
+
+        System.out.println(bartek);// gdy na liscie jest Bartek jakiś to będzie wyświetlony pierwszy z listy, gdy nie ma to będzie wyświetlony ten z .orElseGet
+
+
+        //orElseThrow
+
+
+        User tomek = users.stream()
+                .filter(user -> user.getFirstname().startsWith("T")) //filtrowanie userów zaczynających się na literę T
+                .findFirst() // jęzeli użytkownik na literę T będzie to zwracamy tego użytkownika
+                .orElseThrow(()-> new IllegalStateException("Na tej liście nie ma usera, którego imię zaczyna się na literę T")); //jeżeli nie ma go chcemy  rzucić wyjątek (nie chcemy rzucić żadnego nowej wartości)
+        System.out.println(tomek);
+
+
+        //ifPresent
+         users.stream()
+                 .filter(user -> user.getFirstname().startsWith("A"))
+                 .findFirst()
+                 .ifPresent(user-> System.out.println(user));
+
+         //ifPresentOrElse
+        users.stream()
+                .filter(user -> user.getFirstname().startsWith("V"))
+                .findFirst()
+                .ifPresentOrElse(user-> System.out.println(user), ()-> System.out.println("Nie ma takiego usera"));
 
     }
 }
