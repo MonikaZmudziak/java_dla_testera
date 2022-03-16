@@ -108,14 +108,14 @@ Java 11
 
 9. Streams
 
-* -[ ] Stream-introduction
-* -[ ] Lambda expressions
-* -[ ] Testing methods
-* -[ ] Sorting items in the stream
-* -[ ] Optional - introduction
-* -[ ] The orElse method
-* -[ ] The orElseGet and or ElseThrow methods
-* -[ ] The ifPresent and ifPresentOrElse methods
+* -[x] Stream-introduction
+* -[x] Lambda expressions
+* -[x] Testing methods
+* -[x] Sorting items in the stream
+* -[x] Optional - introduction
+* -[x] The orElse method
+* -[x] The orElseGet and or ElseThrow methods
+* -[x] The ifPresent and ifPresentOrElse methods
 
 10. Exceptions
 
