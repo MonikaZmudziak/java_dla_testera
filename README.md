@@ -119,8 +119,8 @@ Java 11
 
 10. Exceptions
 
-* -[ ] Enumeration types
-* -[ ] Exceptions to catch - examples
+* -[x] Enumeration types
+* -[x] Exceptions to catch - examples
 * -[ ] try-catch-finally
 * -[ ] Exceptions you do not need to catch - Examples 1
 * -[ ] Exceptions you do not need to catch - Examples 2
