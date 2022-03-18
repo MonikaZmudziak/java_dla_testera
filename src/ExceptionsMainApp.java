@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ExceptionsMainApp {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
 
         //WYJĄTKI - sytuacja wyjątkowe
@@ -30,7 +30,7 @@ public class ExceptionsMainApp {
         // IllegalStateExcetpion();
 
 
-        try {
+        try { // dodajemy tu niebezpieczny kod
             BufferedReader bufferedReader = new BufferedReader(new FileReader("test.txt"));
 
         }catch(FileNotFoundException e){
@@ -53,10 +53,31 @@ public class ExceptionsMainApp {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
+        } // wyjątek będzi rzucony gdy z projektu usuniemy plik test.txt
+
+
+
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("test.txt3"));
+            String line = bufferedReader.readLine();
+
+            while(line !=null){
+                System.out.println(line);
+                line = bufferedReader.readLine();
+            }
+
+        }catch(FileNotFoundException e){
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally { // ten blok jest opcjonalny i wykona się zawsze, np. chcemy zamknąc połaćzenia z bazą danych
+            System.out.println("TO WYKONA SIĘ ZAWSZE!!!");
         }
 
 
 
+
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("test1.txt"));
 
     }
 }
