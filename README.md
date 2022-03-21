@@ -126,7 +126,6 @@ Java 11
 * -[x] Exceptions you do not need to catch - Examples 2
 * -[x] Creating own exceptions
 
-...
 
 
 
