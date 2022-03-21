@@ -121,10 +121,10 @@ Java 11
 
 * -[x] Enumeration types
 * -[x] Exceptions to catch - examples
-* -[ ] try-catch-finally
-* -[ ] Exceptions you do not need to catch - Examples 1
-* -[ ] Exceptions you do not need to catch - Examples 2
-* -[ ] Creating own exceptions
+* -[x] try-catch-finally
+* -[x] Exceptions you do not need to catch - Examples 1
+* -[x] Exceptions you do not need to catch - Examples 2
+* -[x] Creating own exceptions
 
 ...
 
